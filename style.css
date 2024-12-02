@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(113, 83, 165);
+    text-align: center;
+}
+input{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: azure;
+}
+input::placeholder {
+    color: rgb(0, 0, 0);
+    transition: opacity 0.2s ease-in-out;
+}
+
+input:focus::placeholder {
+    opacity: 0;
+}
+
+button{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(163, 140, 201);
+    padding: 10px 20px;
+    margin: 20px;
+}
+
+#getButton{
+    margin-top: 20%;
+}
